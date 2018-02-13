@@ -404,7 +404,6 @@ export interface RunnerOption {
     ignorePattern: string
     file?: string
     dryRun?: boolean
-    typeShorthands?: { [name: string]: string }
     noLock?: boolean
 }
 
